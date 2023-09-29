@@ -7,7 +7,7 @@ import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.Random;
 
-public class Exercicio5 {
+public class Exercicio3 {
     public static Pair<Integer,Integer> throwDices(){
         return Pair.of(new Random().nextInt(6) + 1, new Random().nextInt(6) + 1);
     }
